@@ -1,0 +1,43 @@
+
+#headerwrap{
+    
+    background: url(../img/back.jpg) no-repeat center top;
+    background-attachment: relative;
+	background-position: center;
+	text-align: center;
+    margin-top: -70px;
+    padding-top: 250px;
+    min-height: 650px;
+    width: 100%;
+}
+
+#headerwrap h1{
+	color: #ffffff;
+	font-size: 90px;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+
+#headerwrap h3{
+	color: #ffffff;
+	font-weight: 400;
+
+}
+
+#headerwrap hr{
+	color: white;
+
+
+}
+.row{
+/*    background-color: #C0C0C0;*/
+    
+}
+
+
+
+
+footer {
+ background-color: #778899;
+    
+}
