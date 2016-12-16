@@ -1,7 +1,31 @@
 
+::selection {
+    background: #31708f;
+    color: #ffffff;
+   }
+
+body{
+	font-size: 16px;
+}
+
+
+h1 {
+	font-weight: bold;
+    color: #4a4a4a;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+
 #headerwrap{
     
-    background: url(../img/back.jpg) no-repeat center top;
+    background: url(../img/v-oblakah.jpg) no-repeat center top;
     background-attachment: relative;
 	background-position: center;
 	text-align: center;
@@ -34,10 +58,27 @@
     
 }
 
+.projects{
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
 
+.portfolio_gallery{
+	margin-top: 30px;
+}
 
-
+.portfolio_gallery img:hover{
+	opacity: 0.5;
+}
 footer {
- background-color: #778899;
+ 	background-color: #778899;
+ 	padding-top: 70px;
+	padding-bottom: 50px;
     
 }
+
+footer p, a {
+	color: #f2f2f2;
+	text-align: center;
+	font-weight: bold;
+	}
